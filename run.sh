@@ -6,4 +6,3 @@ date >> runLog.txt
 python3 Craiglist.py > debug.txt
 echo Stop >> runLog.txt
 date >> runLog.txt
-

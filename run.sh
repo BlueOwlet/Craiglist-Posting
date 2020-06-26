@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /home/owl/Documents/GitHub/Craigslist
+cd /home/owl/Documents/GitHub/Craiglist-Posting
 . venv/bin/activate
 echo Start >> runLog.txt
 date >> runLog.txt

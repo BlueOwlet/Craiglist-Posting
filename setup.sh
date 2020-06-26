@@ -20,5 +20,7 @@ echo "CronJob created"
 echo "Intallation Complete - Ready to start"
 touch runLog.txt
 touch debug.txt
+chmod +x run.sh
+echo "Executable permissions set to run.sh"
 echo "Initial Installation completed">runLog.txt
 echo "Ready to use =3"

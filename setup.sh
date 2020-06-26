@@ -9,16 +9,16 @@ echo "Venv Created"
 echo "venv Activated"
 pip install -r req.txt
 echo "Requirements Installed"
-crontab -l > tmpfile
+crontab -l>tmpfile
 dir=`pwd`
 echo $dir
 read var1
-echo "*/10 * * * * ${dir}/run.sh" >> tmpfile
+echo "*/10 * * * * ${dir}/run.sh">>tmpfile
 crontab tmpfile
 rm tmpfile
 echo "CronJob created"
 echo "Intallation Complete - Ready to start"
 touch runLog.txt
 touch debug.txt
-echo "Initial Installation completed" > runLog.txt
+echo "Initial Installation completed">runLog.txt
 echo "Ready to use =3"
